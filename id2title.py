@@ -1,5 +1,7 @@
 import re
-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 f = open('title2id.txt','r')
 line = ""
 

@@ -25,7 +25,7 @@ def grabAPage(page):
             return -1.0
         lines = line.split();
         if page == lines[0]:
-            return float(lines[3][0:-1])
+            return float(lines[1][0:-1])
 
 def grabTotalWord(title):
     fword.seek(0)

@@ -2,7 +2,8 @@
 
 from operator import itemgetter
 import sys
-
+reload(sys)
+sys.setdefaultencoding('utf8')
 current_word = None
 current_lineNum = []
 word = None
